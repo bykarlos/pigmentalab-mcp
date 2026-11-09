@@ -1,0 +1,15 @@
+{
+  "name": "pigmentalab",
+  "description": "PigmentaLab for Claude Code: print-ready artwork for DTF and textile printing",
+  "owner": {
+    "name": "PigmentaLab",
+    "url": "https://pigmentalab.io"
+  },
+  "plugins": [
+    {
+      "name": "pigmentalab",
+      "source": "./plugins/pigmentalab",
+      "description": "Connects the PigmentaLab MCP server (check, clean, upscale, halftone and gang-sheet images for DTF) and adds the DTF print-prep skill"
+    }
+  ]
+}

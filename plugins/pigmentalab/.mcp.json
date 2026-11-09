@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pigmentalab": {
+      "type": "http",
+      "url": "https://mcp.pigmentalab.io/mcp"
+    }
+  }
+}

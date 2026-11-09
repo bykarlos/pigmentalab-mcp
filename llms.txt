@@ -1,0 +1,20 @@
+# PigmentaLab MCP
+
+> Hosted pre-press engine for DTF and textile printing, usable from any AI agent through MCP or a REST API: check
+> whether an image prints well at a size, remove backgrounds, upscale, halftone, knock out a color and lay designs out
+> on a gang sheet. Works in any language.
+
+## Docs
+
+- [README](https://github.com/bykarlos/pigmentalab-mcp/blob/main/README.md): connect from Claude, ChatGPT, Claude Code, Cursor, VS Code and Gemini CLI; tools and prices
+- [AGENTS.md](https://github.com/bykarlos/pigmentalab-mcp/blob/main/AGENTS.md): how an agent should use PigmentaLab
+- [The DTF print-prep skill](https://github.com/bykarlos/pigmentalab-mcp/blob/main/plugins/pigmentalab/skills/dtf-print-prep/SKILL.md)
+- [REST examples](https://github.com/bykarlos/pigmentalab-mcp/tree/main/examples): curl, Python and Node
+
+## Service
+
+- MCP server: https://mcp.pigmentalab.io/mcp (Streamable HTTP; OAuth 2.1 or X-API-Key)
+- REST API: https://api.pigmentalab.io/v1 · OpenAPI: https://pigmentalab.io/mcp/openapi.json
+- Prices: https://api.pigmentalab.io/v1/pricing
+- How to authenticate: https://pigmentalab.io/auth.md
+- Guide: https://pigmentalab.io/mcp · Site index for LLMs: https://pigmentalab.io/llms.txt

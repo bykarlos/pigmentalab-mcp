@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.pigmentalab/mcp",
+  "title": "PigmentaLab",
+  "description": "DTF and textile pre-press: print check, background removal, upscaling, halftones and gang sheets.",
+  "version": "0.5.1",
+  "websiteUrl": "https://pigmentalab.io/mcp",
+  "icons": [
+    {
+      "src": "https://pigmentalab.io/android-chrome-512x512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pigmentalab.io/mcp",
+      "headers": [
+        {
+          "name": "X-API-Key",
+          "description": "Optional: your PigmentaLab API key. Without it, the client signs in with OAuth (pigmentalab.io). Keys and credit: https://pigmentalab.io/app/api",
+          "isRequired": false,
+          "isSecret": true,
+          "placeholder": "plb_live_..."
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/bykarlos/pigmentalab-mcp",
+    "source": "github"
+  }
+}

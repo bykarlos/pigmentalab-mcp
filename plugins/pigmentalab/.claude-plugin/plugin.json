@@ -1,0 +1,13 @@
+{
+  "name": "pigmentalab",
+  "version": "0.5.1",
+  "description": "Print-ready artwork for DTF and textile printing: check whether an image prints well at a size, remove backgrounds, upscale, halftone, knock out a color and lay designs out on a gang sheet.",
+  "author": {
+    "name": "PigmentaLab",
+    "url": "https://pigmentalab.io"
+  },
+  "homepage": "https://pigmentalab.io/mcp",
+  "repository": "https://github.com/bykarlos/pigmentalab-mcp",
+  "license": "MIT",
+  "keywords": ["dtf", "printing", "textile", "background-removal", "upscale", "halftone", "gang-sheet", "mcp"]
+}
