@@ -1,6 +1,6 @@
 {
   "name": "pigmentalab",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Print-ready artwork for DTF and textile printing: check whether an image prints well at a size, remove backgrounds, upscale, halftone, knock out a color and lay designs out on a gang sheet.",
   "author": {
     "name": "PigmentaLab",

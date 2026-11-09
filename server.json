@@ -3,7 +3,7 @@
   "name": "io.pigmentalab/mcp",
   "title": "PigmentaLab",
   "description": "DTF and textile pre-press: print check, background removal, upscaling, halftones and gang sheets.",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "websiteUrl": "https://pigmentalab.io/mcp",
   "icons": [
     {
