@@ -1,0 +1,11 @@
+{
+  "name": "pigmentalab",
+  "version": "0.5.2",
+  "description": "Print-ready artwork for DTF and textile printing: check whether an image prints well at a size, remove backgrounds, upscale to 300 dpi, knock out colors, make halftones and pack gang sheets.",
+  "mcpServers": {
+    "pigmentalab": {
+      "httpUrl": "https://mcp.pigmentalab.io/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

@@ -30,6 +30,9 @@ skill, REST examples and the registry manifest ([`server.json`](server.json)).
 
 With OAuth there is no key to copy: you sign in and allow. **Never paste a key into a chat.**
 
+[![Add to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=pigmentalab&config=eyJ1cmwiOiJodHRwczovL21jcC5waWdtZW50YWxhYi5pby9tY3AifQ%3D%3D)
+[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_PigmentaLab-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=pigmentalab&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.pigmentalab.io%2Fmcp%22%7D)
+
 **Claude Code: the plugin.** It connects the server and adds the DTF print-prep skill in one step:
 
 ```bash
@@ -70,7 +73,13 @@ attach in ChatGPT go straight to the tools.
 }
 ```
 
-**Gemini CLI** (`~/.gemini/settings.json`), then sign in with `/mcp auth pigmentalab`:
+**Gemini CLI: the extension.** It connects the server and adds the print-prep instructions:
+
+```bash
+gemini extensions install https://github.com/bykarlos/pigmentalab-mcp
+```
+
+Then sign in with `/mcp auth pigmentalab`. Only the server, in `~/.gemini/settings.json`:
 
 ```json
 {
@@ -163,6 +172,7 @@ More in [`examples/`](examples/): curl, Python and Node.
 |---|---|
 | [`plugins/pigmentalab/`](plugins/pigmentalab/) | The Claude Code plugin: the MCP server and the [DTF print-prep skill](plugins/pigmentalab/skills/dtf-print-prep/SKILL.md) |
 | [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) | The marketplace that `claude plugin marketplace add` reads |
+| [`gemini-extension.json`](gemini-extension.json) · [`GEMINI.md`](GEMINI.md) | The Gemini CLI extension: the server and its instructions |
 | [`examples/`](examples/) | The REST API from curl, Python and Node |
 | [`AGENTS.md`](AGENTS.md) · [`llms.txt`](llms.txt) | For agents that read this repository |
 | [`server.json`](server.json) | The manifest published to the official MCP Registry |
